@@ -1,2 +1,5 @@
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 author: raghav chaturvedi
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
