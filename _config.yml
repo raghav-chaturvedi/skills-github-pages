@@ -1,18 +1,10 @@
-remote_theme: "mmistakes/minimal-mistakes"
-
 title: "Your Name"
-author:
-  name: "Your Name"
-  bio: "PhD Student | Researcher in 2D Materials"
-  email: "your-email@example.com"
-
+description: "PhD Student | Researcher in 2D Materials"
+remote_theme: "mmistakes/minimal-mistakes"
 baseurl: ""
-url: "https://your-website.com"
+url: "https://yourusername.github.io"
 
-permalink: /:title/
-paginate: 10
-
-# Navigation
+# Navigation Bar
 navigation:
   - title: "Home"
     url: "/"
@@ -23,7 +15,7 @@ navigation:
   - title: "CV"
     url: "/cv/"
 
-# Footer
+# Footer Links
 footer:
   links:
     - label: "GitHub"
@@ -33,7 +25,10 @@ footer:
     - label: "LinkedIn"
       url: "https://linkedin.com/in/yourprofile"
 
-sidebar: false
+# Site Theme Configuration
+minimal_mistakes_skin: "default"
+sitemap: true
+google_analytics: "UA-XXXXXX-X"
 
 plugins:
   - jekyll-paginate
