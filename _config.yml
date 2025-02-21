@@ -1,6 +1,14 @@
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  
 title: "Your Name"
 description: "PhD Student | Researcher in 2D Materials"
-remote_theme: "mmistakes/minimal-mistakes"
 baseurl: ""
 url: "https://yourusername.github.io"
 
@@ -29,10 +37,3 @@ footer:
 minimal_mistakes_skin: "default"
 sitemap: true
 google_analytics: "UA-XXXXXX-X"
-
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
